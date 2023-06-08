@@ -24,9 +24,7 @@ int main(){
     } else{
         printf("\nO corno, digita um número que corresponde ao dia da semana. Obrigado");
     }
-
-
-
+    
 }
 
 
