@@ -10,5 +10,5 @@ int main(){
     int data, dia, mes, ano;
 
     printf("Digite uma data: \n");
-    scanf("%d", &data)
+    scanf("%d", &data);
 }
