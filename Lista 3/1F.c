@@ -64,9 +64,5 @@ int main() {
     }
 }
 
-
-
-
-
 /*Escreva um algoritmo em C que recebe um número de 1 a 12 e exibe a estação
 do ano correspondente.*/
