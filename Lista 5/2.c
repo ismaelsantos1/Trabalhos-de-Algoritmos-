@@ -16,8 +16,7 @@ int main() {
   decimal = (rest5 * 1) + (rest4 * 2) + (rest3 * 4) + (rest2 * 8) +
             (rest1 * 16); // por exemplo: 2^0 = 1 (logo a primeira posição será
                           // multiplicado por 1) e assim em diante
-  printf("O esultado da conversão do número %d para decimal é: %d", binario,
-         decimal);
+  printf("O esultado da conversão do número %d para decimal é: %d", binario, decimal);
   return 0;
 }
 /*
