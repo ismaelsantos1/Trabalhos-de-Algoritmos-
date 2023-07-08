@@ -1,32 +1,20 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int n, i=1;
+  int n, i = 1, resultado, m = 1;
 
-    printf("Digite um valor de 1 a 10 para calcular a sua tabuada de multiplicação");
-    scanf("%d", &n);
+  printf("Digite um valor para saber sua tabuada de multiplicação: ");
+  scanf("%d", &n);
 
-    while(i<=10){
-
-        n * 1;
-        n * 2 ;
-        n * 3;
-        n * 4;
-        n * 5;
-        n * 6;
-        n * 7;
-        n * 9 ;
-        n * 10;
-        
-
-        i++;
-    }
-    printf("Testando %d", n);
-
-    return 0;
+  while (i <= 10) {
+    resultado = n * m;
+    printf("%d * %d = %d\n\n", n, m, resultado);
+    m += 1;
+    i += 1;
+  }
+  return 0;
 }
-
 
 /*
 Ler um valor para uma variável N de 1 a 10 e calcular a tabuada de multiplicação

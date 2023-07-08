@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"files.associations": {
+			"1B.C": "cpp",
+			"1C.C": "cpp",
+			"1D.C": "cpp"
+		}
+	}
+}
