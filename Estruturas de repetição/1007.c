@@ -19,7 +19,7 @@ int main(){
     int x;
 
     do{
-        printf("Digite um número maior que z");
+        printf("Digite um número maior");
         scanf("%d", &x);
 
 
