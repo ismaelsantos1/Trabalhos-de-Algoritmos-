@@ -69,34 +69,36 @@ int main(){
             printf("Digite um valor válido");
             break;
 
-        cont += 1; //vai controlar quantas vezes a função dever rodar
-        salTotal += salario; //Armazenando os valores dos salários informados
-        tPessoas += genero;
-
-        }
-        if(salario > 0 && idade > maiorIdade){
+        
+        
+        if(salario > 0 /*&& idade > maiorIdade*/){
             //Tirando a média salarial de todos juntos
             mSalario = salTotal / tPessoas;
-            idade = maiorIdade;
+            if(idade  > maiorIdade){
+            maiorIdade = idade;
+            }
+                if(genero == 1){
+                    mSalario = mSalMasc / gMasc;
+                } else if(genero )
+                if(genero == 2){
+                    mSalario = mSalFem / gFem;
+                }
+                if(genero == 3){
+                    mSalNinfo = mSalNinfo / gNinfo;
+                }
+                if(genero == 4){
+                    mSalOutr = mSalOutr / gOutro;
+                }
+            } else if(salario > 0 && idade < menorIdade){
+                menorIdade = idade;
+            }
+            }
 
-            if(genero = 1){
-                mSalario = mSalMasc / gMasc;
-            } else if(genero )
-            if(genero = 2){
-                mSalario = mSalFem / gFem;
-            }
-            if(genero = 3){
-                mSalNinfo = mSalNinfo / gNinfo;
-            }
-            if(genero = 4){
-                mSalOutr = mSalOutr / gOutro;
-            }
-        } else if(salario > 0 && idade < menorIdade){
-            idade = menorIdade;
-        }
-    
-
-    } while(cont<=5); //aqui eu controlo quantas vezes a função irá rodar
+    cont += 1; //vai controlar quantas vezes a função dever rodar
+        salTotal += salario; //Armazenando os valores dos salários informados
+        tPessoas += genero;
+        
+    } while(cont<=2); //aqui eu controlo quantas vezes a função irá rodar
     
     printf("O resultado da pesquisa é: \n\n%.2f \n\n%d \n\n%d \n\n%.2f \n\n%.2f \n\n%.2f \n\n%.2f", mSalario, maiorIdade, menorIdade, mSalMasc, mSalFem, mSalNinfo, mSalOutr);
 
