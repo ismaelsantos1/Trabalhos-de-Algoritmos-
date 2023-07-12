@@ -35,10 +35,7 @@ int main() {
       break;
     }
   }
-  printf("Resultados da pesquisa: \n\nMedia salarial: R$%.2f\n\n Media de "
-         "Filhos: %1.f\n\n Percentual de Pessoas com salario abaixo de R$100: "
-         "%.0f%%\n\n Maior salario: %.2f",
-         mSalario, mFilhos, pPSalarioDeCem, MaiorSalario);
+  printf("Resultados da pesquisa: \n\nMedia salarial: R$%.2f\n\n Media de Filhos: %1.f\n\n Percentual de Pessoas com salario abaixo de R$100: %.0f%%\n\n Maior salario: %.2f", mSalario, mFilhos, pPSalarioDeCem, MaiorSalario);
   return 0;
 }
 
