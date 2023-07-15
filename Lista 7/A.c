@@ -31,11 +31,3 @@ int main(){
 
     return 0;   
 }
-/*    if(num1 % 2 == 0){
-    printf("É um número par");
-    } else{
-    printf("É um número ímpar");
-    }
-
-    return 0;
-}*/
