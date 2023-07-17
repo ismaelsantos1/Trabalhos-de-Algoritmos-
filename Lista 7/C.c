@@ -73,7 +73,7 @@ int main(){
             break;
         }
         mAltPop = altPop / pop;
-        pHomens = (homens/pop) * 100;
+        pHomens = ((homens/pop) * 100);
         cont++;
     } while(cont <=5);
 
