@@ -27,7 +27,6 @@ int main(){
                 printf("Não é um número perfeito");
         }
     }
-        printf("Os divisores de %d são: %d", n, total);
     return 0;
 }
 
