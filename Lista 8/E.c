@@ -18,12 +18,12 @@ Calcula e escreve a soma dos n primeiros termos da série, com n>3:
                 /*numer +=2;
                 denom--;*/
 
-                    printf("\n %.0f/%.0f", numer, denom);
+                    printf(" %.0f/%.0f+", numer, denom);
                     div += (numer/denom);
-                    printf("\n\nteste %.1f", div);
+            
             }
             
         }
-            
+        printf("\n\nSomatório dos n primeiros termos: %.1f", div);
         return 0;
     }
