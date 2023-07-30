@@ -8,9 +8,9 @@ Ler a altura de 15 pessoas, calcular e mostrar :
 
 int main() {
 
-  int altMenor = 1000, altMaior = 0, altura, p = 1;
+  int altMenor = 1000, altMaior = 0, altura, i = 1;
 
-  while (p <= 5) {
+  while (i <= 5) {
 
     printf("Digite sua altura: ");
     scanf("%d", &altura);
@@ -23,9 +23,8 @@ int main() {
 
       altMaior = altura;
     }
-    p++;
+    i++;
   }
-  printf("A maior altura é: %d\n", altMaior);
-  printf("A menor altura é: %d\n", altMenor);
+  printf("\n\nA maior altura é: %d\nA menor altura é: %d\n", altMaior, altMenor);
   return 0;
 }

@@ -16,7 +16,6 @@ impressão (Para n = 9):
                 if(n > 0 && n < 10){
 
                     do{
-
                         sCont=1;
                         while(sCont <=i){
                             if(sCont == 1 && i==1)

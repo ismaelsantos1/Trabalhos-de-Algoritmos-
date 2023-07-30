@@ -10,7 +10,7 @@ int main(){
 
     int n, cont=1;
 
-    printf("Vcoê deverá digitar vários números e o programa informará quantos estão entre 100 e 200. Para finalizar você deverá digitar 0\n");
+    printf("Você deverá digitar vários números e o programa informará quantos estão entre 100 e 200. Para finalizar você deverá digitar 0\n");
     printf("\n----------------------------------------------------\n");
 
     do{

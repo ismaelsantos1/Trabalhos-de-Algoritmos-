@@ -7,11 +7,10 @@ int main(){
 
     int n, pImpar=1, sumPares=0, cont=1;
 
-    printf("Para parar o programa digite o número 1 para finalizar \n");
+    printf("Para parar o programa digite 0\n");
     printf("\n-----------------------------------------------------------------\n");
 
-    do
-    {
+    do{
         printf("Digite um valor inteiro e positivo: ");
         scanf("%d", &n);
 

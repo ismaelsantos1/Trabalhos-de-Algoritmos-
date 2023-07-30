@@ -5,8 +5,7 @@ int main() {
   int nValores = 1,nPosi = 0, nNega = 0, tValores = 0, vGeral = 0;
   float pPosi, pNega;
 
-  printf("Digite valores quaisquer, e para parar de enviar valores, digite "
-         "'0'\n\n");
+  printf("Digite valores quaisquer, e para parar de enviar valores, digite '0'\n\n");
 
   while (nValores != 0) {
 
@@ -30,11 +29,7 @@ int main() {
   pPosi = (nPosi * 100) / vGeral;
   pNega = (nNega * 100) / vGeral;
 
-  printf("A média aritmética dos valores inseridos é: %d\n\n A quantidade de "
-         "valores positivos é igual a: %d \n\n A quantidade de valores "
-         "negativos é igual a: %d\n\n O percentual de valores positivos é: "
-         "%.1f%% \n\n O percentual de valores de negativos é: %.1f%%\n\n",
-         tValores, nPosi, nNega, pPosi, pNega);
+  printf("A média aritmética dos valores inseridos é: %d\n\n A quantidade de valores positivos é igual a: %d \n\n A quantidade de valores negativos é igual a: %d\n\n O percentual de valores positivos é: %.1f%% \n\n O percentual de valores de negativos é: %.1f%%\n\n", tValores, nPosi, nNega, pPosi, pNega);
 
   return 0;
 }

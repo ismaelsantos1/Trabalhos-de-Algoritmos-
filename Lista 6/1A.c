@@ -8,7 +8,7 @@ a) Ler um número n e imprimir a informação se ele é primo ou não.
 
 int main() {
 
-  int n, i = 1, cont = 0, result;
+  int n, i = 1, cont = 0;
   printf("Digite um valor: ");
   scanf("%d", &n);
 
