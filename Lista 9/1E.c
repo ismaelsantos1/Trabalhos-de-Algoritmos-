@@ -10,7 +10,7 @@ foi encontrado ou se não foi encontrado.
 
     int main(){
 
-        int x, vet[TAM], i, achou=0;
+        int x, vet[TAM], i, achou=0; //usado para sinalizar se não for encontrado o valor
 
         for (i=0; i<TAM; i++){
             
