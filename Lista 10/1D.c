@@ -4,7 +4,6 @@ secundária, mostrando a posição em que ele está armazenado.
 */
 
 #include <stdio.h>
-
 #define n 3
 
     int main(){
@@ -18,8 +17,6 @@ secundária, mostrando a posição em que ele está armazenado.
                     
                     printf("Matriz [%d][%d]= ", i, j);
                     scanf("%d", &mat[i][j]);
-
-                    //if(j==0 && i==0 && (i+j)== (n-1)){
                 }
             }
                         menor = mat[0][n-1];
