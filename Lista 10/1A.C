@@ -16,22 +16,22 @@ De todos os elementos da matrizes;
 
         int vet[line] [col], i, j, somaL=0, somaCol=0, somaDia=0, somaAll=0;
 
-            for(i=0; i<line, i++;){
+            for(i=0; i<line; i++){
                 for(j=0; j<col; j++){
                     
-                    printf("\n[%d][%d]", i, j);
+                    printf("\nmat[%d][%d]= ", i, j);
                     scanf("%d", &vet[i][j]);
 
                     somaAll+= vet[i][j];
 
-                    if(vet[i] == vet[4]){
+                    if(i == 3){
 
-                        somaL+= i;
+                        somaL+= vet[i][j];
                     }
 
-                    if(vet[j]== vet[2]){
+                    if(j== 1){
 
-                        somaCol+= j;
+                        somaCol+= vet[i][j];
                     }
 
                     if(i == j){
@@ -39,7 +39,8 @@ De todos os elementos da matrizes;
                     }
             }
 
-            for(i=0; i<line; i++){
+        }
+                for(i=0; i<line; i++){
                 
                 printf("\n");
 
@@ -49,11 +50,8 @@ De todos os elementos da matrizes;
 
                 }
             }
-
-        }
-            printf("A soma da linha 4 é: %d"
+            printf("\n\nA soma da linha 4 é: %d"
             "\nA soma da coluna 2 é: %d"
             "\nA soma da diagonal principal é: %d"
             "\nA soma de todos os elementos é: %d", somaL, somaCol, somaDia, somaAll);
-        return 0;
-    }
+
