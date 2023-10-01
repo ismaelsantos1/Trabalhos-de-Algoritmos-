@@ -39,20 +39,16 @@ int main(){
             printf("Qual a cor do cavalo branco de Napoleão? \n");
             fgets(r1, 40, stdin);
 
-            if(strcmp(r1, resp) != 0){
-            
-                //while(strcmp(r1, resp) != 0){
-                
+
+            do{
+
                     printf("Resposta errada! Tente novamente: ");
                     fgets(r1,40,stdin);
-                //}
 
-            }else{
-                
-                printf("Resposta correta!\n");
-                
-            }
+            }while(strcmp(r1, resp) != 0);
+            
         
+        printf("Resposta correta!\n");
         
     return 0;
 
