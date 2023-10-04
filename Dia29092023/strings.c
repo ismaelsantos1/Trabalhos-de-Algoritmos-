@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(){
+/*int main(){
 
     //int tamanho;
     //char n[10];
@@ -33,23 +33,24 @@ int main(){
         //printf("Tamanho da string é: %d", tamanho);
     
     
-        char resp[40] = "branco";
+       /* char resp[7] = "branco";
         char r1[40];
 
-            printf("Qual a cor do cavalo branco de Napoleão? \n");
+        
+        printf("Qual a cor do cavalo branco de Napoleão? ");
+        fgets(r1, 40, stdin);
+
+            //Com if e else funciona, por que?
+        do{
+
+            printf("Resposta errada! Tente novamente: ");
             fgets(r1, 40, stdin);
 
-
-            do{
-
-                    printf("Resposta errada! Tente novamente: ");
-                    fgets(r1,40,stdin);
-
-            }while(strcmp(r1, resp) != 0);
-            
+        } while(strcmp(r1, resp) != 0);
         
-        printf("Resposta correta!\n");
-        
+        printf("Resposta correta\n");
+
     return 0;
 
-}
+}*/
+
