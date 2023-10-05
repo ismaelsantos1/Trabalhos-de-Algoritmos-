@@ -26,24 +26,24 @@ Escreva um programa em C que leia uma placa de um veículo (letras e números e
 
                 for(i=0; i <= tam ; i++){
                     
-                    if(placa[i] == '1' || placa[i] == '2'){
+                    if(placa[i+6] == '1' || placa[i+6] == '2'){
 
                         printf("Fevereiro\n");
 
                     } 
-                    if(placa[i] == '3' || placa[i] == '4'){
+                    if(placa[i+6] == '3' || placa[i+6] == '4'){
                         printf("Março\n");
 
                     } 
-                    if(placa[i] == '5' || placa[i] == '6'){
+                    if(placa[i+6] == '5' || placa[i+6] == '6'){
                         
                         printf("Abril\n");
                     }
-                    if(placa[i] == '7' || placa[i] == '8'){
+                    if(placa[i+6] == '7' || placa[i+6] == '8'){
 
                         printf("Maio\n");
                     } 
-                    if(placa[i] == '9' || placa[i] == '0'){
+                    if(placa[i+6] == '9' || placa[i+6] == '0'){
 
                         printf("Junho\n");
                     }
