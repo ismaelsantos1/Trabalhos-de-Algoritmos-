@@ -10,7 +10,8 @@ Escreva um programa em C que verifique se uma palavra é palíndrome
 
         char nome[20], copia[20];
 
-            printf("Digite nome: ");
+            //Não verifica se uma FRASE pode ser palíndroma. Ex: a grama é amarga
+            printf("Digite algo: ");
             fgets(nome, 20, stdin);
 
             //o que foi armazenado em nome é copiado na outra string
@@ -31,8 +32,9 @@ Escreva um programa em C que verifique se uma palavra é palíndrome
                     scanf("%i", &refaz);
                         switch(refaz){
                             case 1:
-                                return main();
                                 system("clear");
+                                system("pause");
+                                return main();
                                 break;
                             case 2:
                                 return 0;
@@ -51,6 +53,7 @@ Escreva um programa em C que verifique se uma palavra é palíndrome
                     switch (refaz){
                     case 1:
                         system("clear");
+                        system("pause");
                         return main();
                         break;
                     
