@@ -30,9 +30,9 @@
 
                     fflush(stdin);
                     
-                }
+                //}
                             //tam-1
-                    for(i=3; i>=0; i--){
+                    //for(i=3; i>=0; i--){
                         for(j= i-1; j>0; j--){
 
                             if(Atleta[i].idade > Atleta[j].idade){
