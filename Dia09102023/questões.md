@@ -33,4 +33,4 @@
         
         d. Apresentar o nome e idade dos 3 alunos com maior média geral no semestre
         
-        e. Encerrar o programa.
+        e. Encerrar o programa

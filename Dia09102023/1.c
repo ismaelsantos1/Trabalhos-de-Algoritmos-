@@ -18,10 +18,11 @@
             int altura;
         } dados[5];
             dados Atleta;
-            //char nomeh[50], nomei[50];
-            //int i, a;
+            
+            char nomeh[50], nomei[50];
+            int i, j;
             int maiorAltura= 0, maisVelho= 0;
-                int i;
+            
                 for(i=0; i<5; i++){
 
                     printf("\n\nDigite o nome do Atleta: ");
@@ -47,22 +48,16 @@
                     if(Atleta[i].idade> maisVelho){
                         
                         maisVelho = Atleta[i].idade;
-                        //strcpy(nomeh, Atleta[i].nome);
-                    }
-
-                    if(Atleta[i].altura > maiorAltura){
-
-                        maiorAltura = Atleta[i].altura;
-                        //strcpy(nomei, Atleta[i].idade);
+                        strcpy(nomei, Atleta[i].nome);
                     }
                 }
 
                 printf("Os nomes dos atletas cadastrados são: \n");
 
-                for(int j=0; j<5 ; j++){
+                for(j=0; j<5 ; j++){
                     
 
-                    printf("O atleta %s que faz %s tem %d anos e mede %d\n", Atleta[i].nome, Atleta[i].esporte, Atleta[i].idade, Atleta[i].altura);
+                    printf("O atleta %s faz %s tem %d anos e mede %d\n", nomei, Atleta[i].esporte, Atleta[i].idade, Atleta[i].altura);
 
                 }
                 printf("A idade do atleta mais velho é: \n%d\nE a altura do maior atleta é: %d", maisVelho, maiorAltura);
