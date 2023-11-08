@@ -152,7 +152,7 @@
         printf("\nA soma das idades eh: %d", somaIdades(v));
     }
 
-# Recursividade
+## Recursividade
 
     A recursividade é uma das mais importantes vantangens do uso de funções em C. A Recursão é o processo pelo qual uma função chama a si mesma repetidamente um número FINITO de vezes.
 

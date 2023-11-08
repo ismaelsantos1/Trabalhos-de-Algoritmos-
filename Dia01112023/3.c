@@ -40,7 +40,7 @@ Implemente uma função receba um vetor de 20 elementos do tipo struct (definiç
 
         //printf("Digite as informações do produto:");
 
-            struct Produto info[TAM] = {{"Notebook", 1000, 4500.99}, {"Celular", 1500, 9070.89}, {"Tablet", 780, 3550.90}, {"Smartwatch", 3500, 1150.65}, {"Tv", 650, 3600.00}, {"Câmera", 54, 850.99}};
+            struct Produto info[TAM] = {{"Notebook", 1000, 4500.99}, {"Celular", 1500, 9070.89}, {"Tablet", 780, 5070.89}, {"Smartwatch", 3500, 1150.65}, {"Tv", 650, 3600.00}, {"Câmera", 54, 850.99}};
 
                 /*for(int i=0; i<TAM; i++){
 
