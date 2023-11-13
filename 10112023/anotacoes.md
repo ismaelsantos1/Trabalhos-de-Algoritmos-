@@ -13,12 +13,13 @@
             Dados gravados de acordo com o tipo.
 
 ## Manipulação de Arquivos em C
+
     Funções disponíveis na biblioteca <stdio.h>
     Funções para abrir/fechar/ler caracteres/bytes
         Não possui funções para ler automaticamente todas as informações de um arquivo.
             Programdor cria.
     
-    Sempre que for usar arquivos em programas tem que declara um ponteiro de arquivo
+    Sempre que for usar arquivos em programas tem que declarar um ponteiro de arquivo
 
         FILE *p;
             Onde "p" é o ponteiro que permitirá manipular arquivos em C.
@@ -32,6 +33,7 @@
                 Pode-se usar caminhos absolutos (a partir da raiz - ex C:\\Projetos\\dados.txt) ou relativos (a partir do diretório corrente).
 
                 O modo de abertura determina que tipo de uso será feito do arquivo (na pag.4 do slide tem os modos de abertura do arquivo);
+
 
                 ------------Abrindo o arquivo teste.txt----------
 
@@ -61,7 +63,7 @@
                             FILE *arquivo = fopen("file.txt", "w");
 
                             //gravando um inteiro e uma palavra no arquivo
-                            fprint(arquivo, "%s - %d\n", palavra, inteiro);
+                            fprintf(arquivo, "%s - %d\n", palavra, inteiro);
 
                             //fechando (e salvando) o arquivo
                             fclose(arquivo);
@@ -100,7 +102,7 @@
                 fgets
                 fgetc
 
-            Gravaçãp->
+            Gravação->
                 fputs
                 fputc
             
@@ -119,10 +121,12 @@
             § Solicitar do usuário uma palavra qualquer e escrever no arquivo
             § Mostrar no prompt o conteúdo do arquivo
             § Fechar o arquivo
+        
+        Escrever um programa em C para informar o número de caracteres presentes num arquivo de texto.
 
 ### Material adicional
 
-    - [Tutorial sobre como ler e gravar em um arquivo]http://www.ime.usp.br/~pf/alg
+    [Tutorial sobre como ler e gravar em um arquivo]http://www.ime.usp.br/~pf/alg
 
     http://linguagemc.com.br/arquivos-em-c-categoria-usando-arquivos/
 
