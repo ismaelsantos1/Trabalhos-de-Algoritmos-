@@ -67,4 +67,4 @@
         printf("%s\n%s\n%s", phrases, new_message, user);
 
         return 0;
-    }
+        }
