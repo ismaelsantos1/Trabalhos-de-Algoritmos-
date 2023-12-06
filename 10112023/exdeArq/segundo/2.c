@@ -1,8 +1,8 @@
-/*
-Crie um programa que lê 10 frases e, após convertê-las em letras maiúsculas (usar
-função toupper()), armazene-as em um arquivo. Ao ﬁnal o texto do arquivo deverá
-ser apresentado na tela do computador.
-*/
+    /*
+    Crie um programa que lê 10 frases e, após convertê-las em letras maiúsculas (usar
+    função toupper()), armazene-as em um arquivo. Ao ﬁnal o texto do arquivo deverá
+    ser apresentado na tela do computador.
+    */
 
 #include <stdio.h>
 #include <stdlib.h>
