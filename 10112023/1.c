@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-    int main(){
+        int main(){
 
         char phrases[100] = {"Meu primeiro arquivo em C"};
 

@@ -8,7 +8,7 @@ ser apresentado na tela do computador.
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#define tam 100
+#define tam 1000
     
     void to_upper(char *str){
 
@@ -19,8 +19,8 @@ ser apresentado na tela do computador.
 
     int main(){
 
-        int i, j;
-        char frase[10][tam];
+        int i;
+        char frase[100][tam];
         FILE *arq;
         
         printf("Digite 5 frases abaixo: \n");
